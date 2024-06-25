@@ -1,7 +1,5 @@
 package com.example.vms.model;
 
-import jakarta.annotation.Generated;
-
 public class Vehicle {
 
     private long id;
@@ -9,8 +7,6 @@ public class Vehicle {
     private String model;
     private String year;
     private String transmissionType;
-
-
 
     public Vehicle(long id, String make, String model, String year, String transmissionType) {
         this.id = id;

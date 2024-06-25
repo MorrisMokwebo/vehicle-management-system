@@ -16,7 +16,6 @@ public class VehicleController {
 
     /**
      * add new vehicle
-     *
      * @param vehicle
      * @return vehicle
      */
@@ -29,7 +28,6 @@ public class VehicleController {
 
     /**
      * get all vehicles
-     *
      * @return
      */
     @GetMapping("/all")
@@ -40,7 +38,6 @@ public class VehicleController {
 
     /**
      * retrieve vehicle by id
-     *
      * @param id
      * @return
      */
@@ -57,7 +54,6 @@ public class VehicleController {
 
     /**
      * remove vehicle by id
-     *
      * @param id
      */
     @DeleteMapping("/{id}")
@@ -77,7 +73,6 @@ public class VehicleController {
 
     /**
      * update vehicle info by id number
-     *
      * @param vehicle
      * @param id
      * @return
@@ -101,6 +96,5 @@ public class VehicleController {
     private int autoIDGenerator() {
         return counter += 1;
     }
-
 
 }
